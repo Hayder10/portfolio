@@ -14,8 +14,25 @@ html{
 body {
   background-color: #260000;
   height: 100%;
+  margin: 0;
   font-family: 'Cabin', sans-serif;
+  color: #F1E886;
+
+  scroll-behavior: smooth;
 }
+/* Snapping Scroll */
+
+section{
+  height: 100vh;
+  scroll-snap-align: start;
+}
+.App{
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+
 
 /* Dashboard Styling */
 
@@ -27,3 +44,8 @@ body {
   font-weight: 700;
 }
 
+/* Introduction Styling */
+
+.introduction{
+  min-height: 100vh;
+}
