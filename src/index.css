@@ -44,8 +44,12 @@ section{
   font-weight: 700;
 }
 
-/* Introduction Styling */
+/* Main Component Styling */
 
 .introduction{
+  min-height: 100vh;
+}
+
+.preskills{
   min-height: 100vh;
 }
