@@ -15,7 +15,7 @@ function Skills() {
         <div className='container d-flex flex-column justify-content-center'>
             <div className='row'>
                 <div className='col-md-12'>
-                    <h1 className='display-4 fst-italic text-start px-3 py-5'>Frontend</h1>
+                    <h1 className='display-4 fst-italic text-start ps-3'>Frontend</h1>
                 </div>
             </div>
             <div className='row d-flex justify-content-around'>
@@ -37,20 +37,20 @@ function Skills() {
             </div>
             <div className='row'>
                 <div className='col-md-12'>
-                    <h1 className='display-4 fst-italic text-end px-3 pt-5 pb-3'>Backend</h1>
+                    <h1 className='display-4 fst-italic text-end pe-4'>Backend</h1>
                 </div>
             </div>
-            <div className='row d-flex justify-content-around'>
-                <div className='col-md-3 col-offset-md-5 p-5'>
+            <div className='row d-flex justify-content-around pb-5 px-5'>
+                <div className='col-md-3 col-offset-md-5'>
                     <img src={python} className='img-fluid' alt='Error!'></img>
                 </div>
-                <div className='col-md-3 p-5'>
+                <div className='col-md-3'>
                     <img src={flask} className='img-fluid' alt='Error!'></img>
                 </div>
-                <div className='col-md-3 p-5'>
+                <div className='col-md-3'>
                     <img src={sqlalch} className='img-fluid' alt='Error!'></img>
                 </div>
-                <div className='col-md-3 p-5'>
+                <div className='col-md-3'>
                     <img src={sql} className='img-fluid' alt='Error!'></img>
                 </div>
             </div>
