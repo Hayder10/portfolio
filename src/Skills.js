@@ -12,13 +12,13 @@ import sql from './media/sql.png'
 
 function Skills() {
     return (
-        <div className='container d-flex flex-column justify-content-center'>
+        <div className='skills container d-flex flex-column justify-content-center'>
             <div className='row'>
                 <div className='col-md-12'>
                     <h1 className='display-4 fst-italic text-start ps-3'>Frontend</h1>
                 </div>
             </div>
-            <div className='row d-flex justify-content-around'>
+            <div className='row row-cols-5 justify-content-around'>
                 <div className='col-md-2'>
                     <img src={javascript} className='img-fluid' alt='Error!'></img>
                 </div>
@@ -37,11 +37,11 @@ function Skills() {
             </div>
             <div className='row'>
                 <div className='col-md-12'>
-                    <h1 className='display-4 fst-italic text-end pe-4'>Backend</h1>
+                    <h1 className='display-4 fst-italic text-end pe-4 pt-5'>Backend</h1>
                 </div>
             </div>
-            <div className='row d-flex justify-content-around pb-5 px-5'>
-                <div className='col-md-3 col-offset-md-5'>
+            <div className='row row-cols-4 justify-content-around pb-5 px-5'>
+                <div className='col-md-3'>
                     <img src={python} className='img-fluid' alt='Error!'></img>
                 </div>
                 <div className='col-md-3'>

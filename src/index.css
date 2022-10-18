@@ -46,10 +46,6 @@ section{
 
 /* Main Component Styling */
 
-.introduction{
-  min-height: 100vh;
-}
-
-.preskills{
+.introduction, .preskills, .skills , .projects{
   min-height: 100vh;
 }
