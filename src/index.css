@@ -46,6 +46,21 @@ section{
 
 /* Main Component Styling */
 
-.introduction, .preskills, .skills , .projects{
+.introduction, .preskills, .skills, .projects{
   min-height: 100vh;
+}
+
+/* Card Styling */
+.card-img-overlay{
+  background-color: rgb(241, 232, 134,0.5);
+  color: #260000;
+  font-weight: 800;
+}
+
+.card{
+  transition: transform .2s;
+}
+
+.card:hover{
+  transform: scale(1.1);
 }
