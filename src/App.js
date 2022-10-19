@@ -17,19 +17,19 @@ function App() {
         <section className='introduction'>
           <Introduction />
         </section>
-        <section>
+        <section className='preskills'>
           <PreSkills />
         </section>
-        <section>
+        <section className='skills'>
           <Skills />
         </section>
-        <section>
+        <section className='projects'>
           <Projects />
         </section>
-        <section>
+        <section className='interests'>
           <Interests />
         </section>
-        <section>
+        <section className='contact'>
           <Contact />
         </section>
       </div>
