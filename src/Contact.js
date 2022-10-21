@@ -6,7 +6,7 @@ function Contact() {
   }
   return (
     <div className='contact container d-flex flex-column justify-content-center'>
-      <div className="row">
+      <div className="row" data-aos='zoom-out' data-aos-delay='200'>
         <div className="col-md-12">
           <h1 className="display-6">
           If you have anything to tell me, I'll leave my social media here!

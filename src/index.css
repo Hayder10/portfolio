@@ -24,13 +24,10 @@ body {
 
 section{
   min-height: 100vh;
-  scroll-snap-align: start;
 }
 
 
 .App{
-  scroll-snap-type: y proximity;
-  overflow-y: scroll;
   height: 100vh;
 }
 

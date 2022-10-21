@@ -14,11 +14,11 @@ function Projects() {
     <div className='projects container d-flex flex-column justify-content-center'>
       <div className='row'>
         <div className='col-md-12'>
-          <h1 className='display-4 my-5'>Some of my projects...</h1>
+          <h1 className='display-4 my-5' data-aos='fade-right' data-aos-delay='200'>Some of my projects...</h1>
         </div>
       </div>
       <div className='row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4'>
-        <div className="col">
+        <div className="col" data-aos='flip-up' data-aos-delay='400'>
           <div className="card" onClick={() => handleClick('https://dojo-hermanos-bascur.vercel.app')}>
             <img src={dojo} className="card-img" alt="Error!" />
             <div className="card-img-overlay d-flex flex-column justify-content-center">
@@ -28,7 +28,7 @@ function Projects() {
             </div>
           </div>
         </div>
-        <div className="col">
+        <div className="col" data-aos='flip-up' data-aos-delay='600'>
           <div className="card" onClick={() => {handleClick('https://bussiness-inventory.vercel.app')}}>
             <img src={binventory} className="card-img" alt="Error!" />
             <div className="card-img-overlay d-flex flex-column justify-content-center">
@@ -38,7 +38,7 @@ function Projects() {
             </div>
           </div>
         </div>
-        <div className="col">
+        <div className="col" data-aos='flip-up' data-aos-delay='800'>
           <div className="card" onClick={() => {handleClick('https://battleship-react.vercel.app')}}>
             <img src={battleship} className="card-img" alt="Error!" />
             <div className="card-img-overlay d-flex flex-column justify-content-center">
@@ -48,7 +48,7 @@ function Projects() {
             </div>
           </div>
         </div>
-        <div className="col">
+        <div className="col" data-aos='flip-up' data-aos-delay='1000'>
           <div className="card h-100" onClick={() => {handleClick('https://starwarsblog-five.vercel.app')}}>
             <img src={starwars} className="card-img" alt="Error!" />
             <div className="card-img-overlay d-flex flex-column justify-content-center">
@@ -58,7 +58,7 @@ function Projects() {
             </div>
           </div>
         </div>
-        <div className="col">
+        <div className="col" data-aos='flip-up' data-aos-delay='1200'>
           <div className="card h-100" onClick={() => {handleClick('https://bubble-sort-cards.vercel.app')}}>
             <img src={cards} className="card-img h-100" alt="Error!" />
             <div className="card-img-overlay d-flex flex-column justify-content-center">
@@ -68,7 +68,7 @@ function Projects() {
             </div>
           </div>
         </div>
-        <div className="col">
+        <div className="col" data-aos='flip-up' data-aos-delay='1400'>
           <div className="card" onClick={() => {handleClick('https://login-jwtf-ront-end.vercel.app')}}>
             <img src={login} className="card-img" alt="Error!" />
             <div className="card-img-overlay d-flex flex-column justify-content-center">
@@ -80,7 +80,7 @@ function Projects() {
         </div>
       </div>
       <div className='row'>
-        <div className='col-md-12'>
+        <div className='col-md-12' data-aos='zoom-in' data-aos-delay='1800'>
           <h1 className='display-6 my-5'>Check out my GitHub!<br /><i className="fa-brands fa-xl fa-square-github" onClick={() => handleClick('https://github.com/Hayder10')}></i></h1>
         </div>
       </div>
