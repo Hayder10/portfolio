@@ -49,6 +49,7 @@ body {
 
 .projects{
   width: 100%;
+  overflow-x: hidden;
 }
 
 /* Card Styling */
