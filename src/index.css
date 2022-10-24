@@ -7,6 +7,10 @@ Trying RN with Cabin
 
 */
 
+* {
+  outline: 1px solid red;
+}
+
 html{
   height: 100%;
 }
@@ -14,17 +18,13 @@ html{
 body {
   background-color: #260000;
   height: 100%;
-  margin: 0;
   font-family: 'Cabin', sans-serif;
   color: #F1E886;
-
   scroll-behavior: smooth;
 }
 /* Snapping Scroll */
 
-section{
-  min-height: 100vh;
-}
+
 
 
 .App{
@@ -47,6 +47,11 @@ section{
 
 .introduction, .preskills, .skills, .interests, .contact{
   min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.projects{
+  width: 100%;
 }
 
 /* Card Styling */
