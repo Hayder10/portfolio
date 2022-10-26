@@ -17,7 +17,7 @@ function Projects() {
           <h1 className='display-4 my-5' data-aos='fade-right' data-aos-delay='200'>Some of my projects...</h1>
         </div>
       </div>
-      <div className='row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4'>
+      <div className='row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 w-100'>
         <div className="col" data-aos='flip-up' data-aos-delay='400'>
           <div className="card" onClick={() => handleClick('https://dojo-hermanos-bascur.vercel.app')}>
             <img src={dojo} className="card-img" alt="Error!" />

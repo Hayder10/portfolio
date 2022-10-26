@@ -48,8 +48,9 @@ body {
 }
 
 .projects{
-  width: 100%;
   overflow-x: hidden;
+  display: flex;
+  align-items: center;
 }
 
 /* Card Styling */
