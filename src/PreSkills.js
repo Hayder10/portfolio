@@ -8,9 +8,12 @@ function PreSkills() {
                 <h1 className='display-3' data-aos='fade-down' data-aos-delay='200'>I've been working on Frontend recently,<br />
                 but I'm a little biased towards Backend.
                 </h1>
-                <h1 className='display-4' data-aos='fade-up' data-aos-delay='1000'>Don't get me wrong, I love both sides of development!</h1>
+                <h1 className='display-4' data-aos='fade-up' data-aos-delay='700'>Don't get me wrong, I love both sides of development!</h1>
                 <h1 className='display-6 mt-5' data-aos='fade-up' data-aos-delay='2000'>Let me showcase my skillset.</h1>
             </div>
+            <div className="col-12 mt-5" data-aos='fade-down' data-aos-delay='2500'>
+          <i className="fa-solid fa-angles-down fa-2xl"></i>
+        </div>
         </div>
     </div>
   )
