@@ -13,7 +13,7 @@ function Interests() {
           <h1 className="display-6">I'm an absolute nerd, I love getting into stuff and start learning very deeply about what I'm interested in.</h1>
         </div>
         <div className="col-md-12" data-aos='fade-right' data-aos-delay='400'>
-          <h1 className="display-6">I like videogames, philosophy and Martial Arts.</h1>
+          <h1 className="display-6">My current goal is to land an opportunity and to keep growing as a dev.</h1>
         </div>
         <div className="col-md-12" data-aos='fade-left' data-aos-delay='500'>
           <h1 className="display-6">You can talk to me about whatever thing comes to your mind, I love listening to people!.</h1>
