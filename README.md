@@ -1,3 +1,5 @@
+Working on Spanish version...
+
 Animations ready!
 
 Still Work In Progress Nonetheless
