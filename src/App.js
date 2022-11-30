@@ -7,6 +7,7 @@ import Skills from './Skills';
 import Projects from './Projects';
 import Interests from './Interests';
 import Contact from './Contact';
+import injectContext from './store/appContext';
 
 function App() {
   return (
@@ -36,4 +37,5 @@ function App() {
   );
 }
 
-export default App;
+
+export default injectContext(App);
